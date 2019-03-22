@@ -1,0 +1,224 @@
+@font-face{
+    font-family: "Permanent Marker";
+    src: url("PermanentMarker-Regular.ttf");
+    
+}
+
+/* Dowloaded link for font from google fonts and how to impliment font was referenced from w3schools.com */
+
+
+
+body{
+    
+    background-color: cadetblue;
+    
+}
+
+#MovieTimes{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse collapse;
+    empty-cells: show;
+    table-layout: fixed;
+}
+
+.image{
+    height: 200px;
+}
+
+
+th{
+    
+    background-color: blanchedalmond;
+    color: brown;
+    font-family: "Permanent Marker", cursive, Arial;
+
+}
+
+
+#MovieHeader {
+    height: 100px;
+    padding: 40px;
+    font-size: 50px;
+    background-color: blanchedalmond;
+    color: chocolate;
+    align-content: center;
+}
+
+#DateHeader {
+    height: 50px;
+    padding: 35px;
+    background-color: blanchedalmond;
+    color: chocolate;
+    font-size: 30px;
+    align-content: center;
+}
+
+.text-center{
+    
+    text-align: center;
+}
+
+
+table, th, td{
+    font-size: 15px;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+#MovieTimes td:nth-child(2n-1){
+    text-align: center;
+}
+
+.even{
+    
+    background-color: gainsboro;
+    
+}
+
+.odd{
+    
+    background-color: white;
+}
+
+.red{
+    
+    background-color: red;
+}
+
+#MovieInfo{
+    
+    background-color: blanchedalmond;
+    color: brown;
+    align-content: center;
+}
+
+.clearHack:after {
+
+     content: "";
+
+     display: table;
+
+     clear: both;
+
+}
+
+#Wrapper{
+    
+    
+    width: 80%;
+    box-shadow: 5px 15px 10px;
+    border: 2px solid grey;
+    background-color: lightblue;
+    margin: 10px auto 10px auto;
+    
+}
+
+#LeftColumn{
+    
+    width: 20%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.containerImage{
+    
+    height: 300px;
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+
+#MiddleColumn{
+    float: left;
+    height: 300px;
+    width: 40%;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 10px;
+    
+}
+
+hr{
+    width: 70%;
+    
+}
+
+.outside{
+    
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.rating{
+    
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    
+    
+}
+
+#RightColumn{
+    
+    width: 35%;
+    height: 300px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+    margin-right: 5px;
+}
+
+.ratingRight{
+    
+    font-size: 20px;
+    margin-right: 50px;
+        
+}
+
+          .active{
+            background-color: black;
+            color: yellow;
+            }    
+            
+            li{
+      float: left;
+      border-right: 1px solid black;
+    }
+        
+    li a{ 
+        display: block;
+        text-align: center;
+        padding: 40px;
+        text-decoration: inherit;
+        }
+    
+        li a:hover{
+            background-color: gray;
+        }
+    
+    ul{
+        background-color: yellow;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid;
+        }
+            
+            .clearHack:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        
+
+
+

@@ -1,0 +1,36 @@
+          .active{
+            background-color: black;
+            color: yellow;
+            }    
+            
+            li{
+      float: left;
+      border-right: 1px solid black;
+    }
+        
+    li a{ 
+        display: block;
+        text-align: center;
+        padding: 40px;
+        text-decoration: inherit;
+        }
+    
+        li a:hover{
+            background-color: gray;
+        }
+    
+    ul{
+        background-color: yellow;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid;
+        }
+            
+            .clearHack:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        

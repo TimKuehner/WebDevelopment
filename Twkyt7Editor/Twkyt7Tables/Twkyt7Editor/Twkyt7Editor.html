@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+
+    Tim Kuehner
+    twkyt7
+    2/17/19
+
+-->
+    
+<!-- 
+
+    References: w3schools (tooltips, positioning, textarea, form, js implementation)
+                jquery (scripts and js)
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Code Editor</title>
+    
+    <link rel="stylesheet" type="text/css" href="EditorStylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    
+    <script src="Twkyt7Editor.js"></script>
+    <style></style>
+    </head>
+
+    <body>
+    <ul>
+         
+        <li><a href="Twkyt7SettingUp.html" >Challenge 1</a></li>
+        
+        <li><a href="Twkyt7HNavbarBio.html" class="active">Home</a></li>
+        
+        <li><a href="Twkyt7Columns.html">Challenge 3</a></li>
+    </ul>
+        
+    <h1>Code Editor</h1>      
+    <form> 
+    <textarea rows="6" id="HTMLbox" class="topBox">
+        
+        </textarea>
+    
+    <textarea rows="6" id="CSSbox">
+        
+        </textarea>
+    
+    <div id="Preview">
+        
+    </div>
+        
+    <div id="Buttons" class=".tooltip">
+        
+    <input type="button" value="HTML" id="HTML" title="HTML: This button is used to show the result of your HTML code">
+    
+    <input type="button" value="CSS" id="CSS" title="CSS: This button is used to turn on or off the CSS">
+        
+    <input type="button" value="ERASE" id="Erase" title="ERASE: This button is used to erase your code and reset the preview pane">
+    
+    
+    
+</div>  
+        
+        <h4 id="name">Tim Kuehner</h4>
+        
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,161 @@
+/*  
+    References: w3schools (positions, float, justify-content, display, alt, buttons, tooltip
+    :hover)
+*/
+
+
+
+
+body{
+    background-color: antiquewhite
+    
+    
+}
+
+h1{
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h4{
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#HTMLbox {
+    
+    padding: 5px;
+    border: 4px solid brown;
+    margin: 10px;
+    border-radius: 5px;
+    height: 250px;
+    width: 500px;
+    display: block;
+    float:left;
+    justify-content: center;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#CSSbox {
+    
+    padding: 5px;
+    border: 4px solid brown;
+    margin: 10px;
+    border-radius: 5px;
+    height: 250px;
+    width: 500px;
+    display: block;
+    float: left;
+    justify-content: center;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#Buttons[alt]{
+    
+    background: black;
+    opacity: 0.65;
+    transition: opacity 1s ease-in-out;
+}
+
+.topBox {
+    
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.bottomBox{
+    
+    
+    
+    
+}
+
+#HTML {
+    
+    text-align: center;
+        
+}
+
+
+#CSS{
+    
+    text-align: center;
+        
+}
+
+
+#Erase{
+    
+    text-align: center;
+       
+}
+
+#Preview {
+    
+    padding: 5px;
+    border: 4px solid brown;
+    margin: 10px;
+    height: 510px;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px gray;
+    background-color: white;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+    
+
+.tooltip:hover .tooltiptext{
+    
+    visibility: visible;
+}
+    
+          .active{
+            background-color: black;
+            color: yellow;
+            }    
+            
+            li{
+      float: left;
+      border-right: 1px solid black;
+    }
+        
+    li a{ 
+        display: block;
+        text-align: center;
+        padding: 40px;
+        text-decoration: inherit;
+        }
+    
+        li a:hover{
+            background-color: gray;
+        }
+    
+    ul{
+        background-color: yellow;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid;
+        }
+            
+            .clearHack:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        
+    

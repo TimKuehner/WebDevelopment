@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<!-- 
+    Tim Kuehner
+    twkyt7
+    2/15/19
+-->
+
+
+<hmtl lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <link rel="stylesheet" type="text/css" href="tables.css">
+</head>
+    <!-- 
+        Code Referencing th tr and td referenced from w3schools
+    -->
+
+<body>
+    
+    <ul>
+         
+        <li><a href="Twkyt7SettingUp.html" >Challenge 1</a></li>
+        
+        <li><a href="Twkyt7HNavbarBio.html">Challenge 2</a></li>
+        
+        <li><a href="Twkyt7Columns.html">Challenge 3</a></li>
+        
+        <li><a href="Twkyt7Tables.html" class="active">Home</a></li>
+        
+        <li><a href="Twkyt7Editor/Twkyt7Editor.html">Challenge 6</a></li>
+        
+        <li><a href=""</li>
+    </ul>
+    
+    <table id="MovieTimes">
+        <tr><th id="MovieHeader" colspan="7">Movie Theater Showtimes</th></tr>
+        <tr><th id="DateHeader" colspan="7">Feb. 15th, 2019</th></tr>
+        
+        <tr id="MovieInfo">
+            <th>Poster</th>
+            <th>Movie Name</th>
+            <th>Rating</th>
+            <th>Length</th>
+            <th colspan="2">Showtimes</th>
+            <th>Amentities</th>
+        </tr>
+        
+        <tr class="even">
+            <td rowspan="4" class="image">
+                <img class="image" src="Images/Poster1.jpg">
+            </td>
+            <td rowspan="4">Lego Movie 2</td>
+            <td rowspan="4">PG</td>
+            <td rowspan="4">106 minutes</td>
+            <td class="red">4:05 PM</td>
+            <td class="red">4:30 PM</td>
+            <td rowspan="4">CC <br>
+                Descriptive Video <br>
+                No Passes <br>
+                Stadium Seating</td>
+        </tr>
+        <tr class="odd">
+            <td>6:40 PM</td>
+            <td>7:10 PM</td>    
+        </tr>
+        <tr class="even">
+            <td>9:25 PM</td>
+            <td>N/A</td>
+        </tr>
+        <tr class="odd">
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+    
+        
+        <tr class="odd">
+            <td rowspan="4" class="image">
+                <img class="image" src="Images/Poster2.jpg">
+            </td>
+            <td rowspan="4">The Prodigy</td>
+            <td rowspan="4">R</td>
+            <td rowspan="4">92 minutes</td>
+            <td class="red" colspan="2">2:40 PM</td>
+            <td rowspan="4" class="text-center">CC <br>
+                Descriptive Video <br>
+                No Passes <br>
+                Stadium Seating
+            </td>
+        </tr>
+        <tr class="odd">
+            <td colspan="2">5:10 PM</td>
+        </tr>
+        <tr class="even">
+            <td colspan="2">7:50 PM</td>
+        </tr>
+        <tr class="odd">
+            <td colspan="2">10:20 PM</td>
+        </tr>
+        
+    <!--
+        How to use colspan and rowspan referenced from w3schools.com
+
+    -->
+    
+    </table>
+    
+    <div id="Wrapper" class="clearHack">
+        <div id="LeftColumn">
+            <img class="containerImage" src="Images/Poster3.jpg">        
+        </div>
+        
+        <div id="MiddleColumn">
+        
+            <h1>Alita: Battle Angel</h1>
+            
+            <hr>
+                <div class="rating">
+                        PG-13: Action: 122 minutes
+            
+                </div>
+            
+            
+                <div class="outside">
+                        CC, DV, No Passes, Stadium Seating
+                </div>
+        
+        
+        
+        
+        </div>
+        <div id="RightColumn">
+        
+        
+            <h1>Viewing Times</h1>
+            
+            <hr>
+            
+            <div class="ratingRight">
+                3:00 PM<br>
+                        <br>
+                7:00 PM<br>
+                        <br>
+                9:10 PM
+                
+                
+            
+            </div>
+        
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+</body>
+</hmtl>
